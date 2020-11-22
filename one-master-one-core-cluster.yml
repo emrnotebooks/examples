@@ -21,6 +21,7 @@ Resources:
       - Name: Spark
       - Name: Livy
       - Name: JupyterEnterpriseGateway
+      - Name: Hive
       EbsRootVolumeSize: '10'
       Name: !Ref ClusterName
       JobFlowRole: EMR_EC2_DefaultRole
